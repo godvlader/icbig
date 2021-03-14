@@ -1,11 +1,91 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<title>Mon CV in HTML</title>
 <meta charset="utf-8">
+<title>ICBIG - A crazy webpage</title>
 <meta name="author" content="T. Vlad">
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 </head>
-    <p> hello welcome to my page</p>
-    <p>how to git</p>
 <body>
-<h1> Nom et prenom
+<!-- En-tête de la page -->
+<header>
+    
+	<div>
+		<img src="img/logo-icbig.png" alt="ICBIG" width="195" height="101">
+		<h1>ICBIG</h1>
+        <p id="slogan">A crazy webpage</p>
+        <img src="hhxMhkG.png" alt="GOT" width="200" height="40">
+        <nav id="header-menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Download now</a></li>
+			<li><a href="#"><abbr>FAQ</abbr></a></li>
+		</ul>
+	</nav>
+	</div>
+</header>
+<main>
+    <aside>
+        <title>Categories</title>
+        <div class="navbar">
+            <ul>
+               <li><a href="#" class="button">Movies</a></li>
+                <li><a href="#" class="button">Music</a></li>
+                <li><a href="#" class="button">Games</a></li>
+                    <li><button class="buttonbtn">Dropdown</button></li>
+                          <div class="dropdown-content">
+                            <a href="#" class="button">Puzzles</a>
+                            <a href="#" class="button">Cards</a>
+                            <a href="#" class="button">Mazes</a>
+                          </div>
+                <li><a href="#" class="button">Shows</a></li>
+                <li><a href="#" class="button">Software</a></li>
+                <li><a href="#" class="button">Ebooks</a></li>
+                <li><a href="#" class="button"><abbr>FAQ</abbr></a></li>
+                <li><a href="#" class="button">Sign Up</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Testimonials</h1>
+            <p1>"Super! On trouve vraiment de tout dans ce site. Et les explications sont très claires!"</p1>
+                <small> Julie Detras, DE</small>
+            <p2>"Time for me to chose the best solutions to my problems! Thanks"</p2>
+                <small>Mike Powell, UK</small>
+        </div>
+    </aside>
+    <div class="topnav">
+          <input type="text" placeholder="Entrez le nom du jeu ici">
+</div>
+    <div>
+        <title>Statistics</title>
+        <ul>
+            <li><p><a href="#">Games</a></p></li>
+            <li><p><a href="#">Cards</a></p></li>
+            <li><p><a href="#">Inscription</a></p></li>
+        </ul>
+    </div>
+    <div class="mainmenu">
+        <title>Formulaire d'inscription</title>
+        <p>Vous devez vous inscrire pour commencer à jouer. L'inscription est rapide et gratuite!</p>
+        <p>Vous êtes déjà membre?</p><a href="#">Se connecter</a>
+    </div>
+ </main>
+<!-- Pied de page -->
+<footer>
+	<nav id="footer-menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Download now</a></li>
+			<li><a href="#"><abbr>FAQ</abbr></a></li>
+		</ul>
+	</nav>
+	<p class="copyright">The purchase of a membershipis not a licese to download copyrighted material. Please do your part and respect copyrights.</p>
+</footer>
+
+<div id="cookie_consent">
+	<p>ICBig utilise des cookies aux fins de fournir ses services 
+et proposer des publicités personnalisées. En utilisant le site, vous consentez à cette utilisation selon les odalités décrites dans notre <a id="close" href="#">Charte Cookies</a>.</p>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
